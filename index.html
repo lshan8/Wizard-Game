@@ -6,30 +6,31 @@
     <body>
         <!-- UI Elements-->
         <div id="gameTitle">Fight!</div>
-        <div id="round">Round : 1</div>
-        <button class="button-56 exit" role="button" onclick="exitGame();">Exit</button>
+        <div id="round">Round : </div>
+        <button class="button-56 exit" role="button" onclick="mainMenu();">Exit</button>
               
         <!-- Player 1 -->
         <p id="player-title1">Player 1</p>  
         <img id="img1" src="https://cdn.pixabay.com/photo/2019/08/20/00/17/wizard-4417511_1280.png" alt="Player 1" width="400px" height="400px">
-        <progress id="health1" value="50" max="100"> </progress>
+        <progress id="health1" value="100" max="100"> </progress>
 
         <!-- Player 2 -->
         <p id="player-title2">Player 2</p>
         <img id="img2" src="https://cdn.pixabay.com/photo/2020/02/14/06/07/wizard-4847575_1280.png" alt="Player 1" width="400px" height="400px">
-        <progress id="health2" value="50" max="100"> </progress>
+        <progress id="health2" value="100" max="100"> </progress>
         
         <!-- Moves -->
         <div id="moves">
-        <button class="button-56 Fire" role="button"> Fire </button>
-        <button class="button-56 Water" role="button"> Water </button>
-        <button class="button-56 ice" role="button"> Ice </button>
-        <button class="button-56 earth" role="button"> Earth </button>
-        <button class="button-56 thunder" role="button"> Thunder </button>
+        <button class="button-56 Fire" role="button" onclick="shoot()"> Shoot </button>
         </div>
         
         <!--Main Menu-->
         <div id="main-menu">
+            <h1> Wizard Game </h1>
+            <p>Instructions : This is a 2 player game. Each player has a health of 100.
+               Players can shoot at each other with a random power (0-5) which will reduce the opponent's health.
+               The Player whose health reaches 0, dies and the game ends.
+               There are 5 such rounds, the player with the most game wins, wins the match/tournament.</p>
             <button class="button-56 start" role="button" onclick="startGame();">Start</button>
         </div>
 
