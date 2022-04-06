@@ -34,6 +34,20 @@
             <button class="button-56 start" role="button" onclick="startGame();">Start</button>
         </div>
 
+        <!-- Round Over-->
+        <div id="round-over">
+            <h1 id="winner-title">has won the round!</h1><br>
+            <h2 id="P1-score">Player 1's Score : </h2> <h2 id="P2-score">Player 2's Score : </h2>
+            <button class="button-56 roundstart" role="button" onclick="nextRound();">Next Round</button>
+            <button class="button-56 roundExit" role="button" onclick="mainMenu();">Exit</button>
+        </div>
+
+        <!--Game Over-->
+        <div id="game-over">
+            <h1 id="game-winner">Player 1 is the winner!</h1> <br>
+            <h2 id="thanks">Thanks for Playing!</h2>
+            <button class="button-56 gameExit" role="button" onclick="mainMenu();">Play Again</button>
+        </div>
       <script type="text/javascript" src="./index.js"></script>
       </body>
 </html>
