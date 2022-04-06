@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+html {
+  background: url(https://cdnb.artstation.com/p/assets/images/images/002/263/985/large/freemagician-_-1603111102-gamemap-06.jpg?1459466325) no-repeat center center fixed;
+  background-size: cover;  
+}
+
+#img1 {
+    position: absolute;
+    bottom: 150px;
+  }
+
+#img2 {
+    position: absolute;
+    left: 1100px;
+    bottom: 140px;
+}
+#gameTitle {
+    font-family: 'MedievalSharp', cursive;
+  text-align : center;
+  font-size : 140px;
+  color : white;
+}
+
+#round {
+  font-family: 'MedievalSharp', cursive;
+  text-align : center;
+  font-size : 50px;
+  color : white;
+}
+
+#player-title1 {
+    
+    position: absolute;
+    top: 80px;
+    left: 110;
+    font-family: 'MedievalSharp', cursive;
+    font-size : 60px;
+    color : white   ;   
+}
+
+#player-title2 {
+    
+    position: absolute;
+    top: 80px;
+    left: 1150;
+    font-family: 'MedievalSharp', cursive;
+    font-size : 60px;
+    color : white   ;   
+}
+
+.button-56 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: 'MedievalSharp', cursive;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+.fire {
+    background-color: rgb(255, 73, 73);
+}
+
+.water {
+    background-color: rgb(68, 68, 255);
+}
+
+.ice {
+    background-color: rgba(0, 153, 255, 0.897);
+}
+
+.earth {
+    background-color: rgb(72, 255, 72);
+}
+
+.thunder {
+    background-color: rgb(255, 255, 58);
+}
+
+#moves {
+    display: flex;
+    position: absolute;
+    top: 650px;
+}
+
+#health1 {
+    position: absolute;
+    scale: 1.9;
+    height: 100px;
+    width: 200px;
+    rotate: -90deg;
+    bottom: 300px;
+    left: 320px;
+
+}
+
+#health2 {
+    position: absolute;
+    scale: 1.9;
+    height: 100px;
+    width: 200px;
+    rotate: -90deg;
+    bottom: 300px;
+    left: 980px;
+
+}
+
+.exit {
+    position:absolute;
+    top: 710px;
+    left: 720px;
+
+}
+
+.start {
+  left: 650px;
+}
+
+#main-menu {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: 'MedievalSharp', cursive;
+  font-size: 16px;
+  height: 88px;
+  width: 200px;
+  justify-content: center;
+  line-height: 24px;
+  padding: 0 25px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
